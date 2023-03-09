@@ -1,0 +1,42 @@
+main {
+    background-color: var(--bgSite);
+}
+
+.destaques {
+    margin-top: 12px;
+}
+
+.destaques h4 {
+    color: var(--title);
+    font-weight: 600;
+}
+
+.destaques p {
+    color: var(--text);
+}
+
+.catalogo {
+    margin-top: 12px;
+}
+
+.card {
+    background-color: var(--bgCard);
+    border: none;
+    margin: 15px;
+}
+
+@media screen and (max-width: 1020px) {
+    .catalogo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        flex-basis: calc(50% - 15px);
+        margin-bottom: 15px;
+    }
+
+    .destaques p {
+        width: 385px;
+    }
+}

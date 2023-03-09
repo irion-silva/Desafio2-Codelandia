@@ -1,0 +1,43 @@
+@import "./header.css";
+@import "./main.css";
+@import "./rodape.css";
+
+/*Variáveis*/
+:root {
+  --bgCard: #ebe9ea;
+  --bgDark: #181818;
+  --bgSite: #f9f9f9;
+  --text: #474747;
+  --title: #181818;
+ --title-white: #f9f9f9;
+ --white: #fff;
+}
+
+/*Reset*/
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+h4 {
+  font-size: 32px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 20px;
+}

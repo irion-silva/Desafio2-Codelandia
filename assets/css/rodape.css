@@ -1,0 +1,10 @@
+.rodape {
+    background-color: var(--bgDark);
+    color: var(--title-white);
+    padding: 15px;
+}
+
+.rodape p {
+    font-size: 15px;
+    margin-bottom: 0px;
+}

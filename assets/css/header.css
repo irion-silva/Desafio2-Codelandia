@@ -1,0 +1,63 @@
+.div-oferta {
+    background-color: var(--title);
+    color: var(--title-white);
+    height: 60px;
+}
+
+.div-nome-site {
+    background-color: var(--bgSite);
+    height: 60px;
+}
+
+.div-nome-site h5 {
+    color: var(--title);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.div-banner {
+    height: 378px;
+    padding-left: 100px;
+    position: relative;
+}
+
+.div-banner::before {
+    content: "";
+    background-image: url("../img/wallpaper.jpeg");
+    background-position-y: -350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+.div-banner h3 {
+    font-weight: 600;
+    padding: 12px 0px;
+}
+
+.div-banner h5 {
+    height: 76px;
+    width: 637px;
+}
+
+.div-banner h3,
+.div-banner h5 {
+    color: var(--title-white);
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1000px) {
+    .div-banner::before {
+        background-position-y: center;
+}
+    .div-banner h5 {
+        width: 385px;
+    }
+}
